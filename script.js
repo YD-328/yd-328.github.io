@@ -1,10 +1,10 @@
 const translations = {
   zh: {
-    eyebrow: '全球進入下一段數位神話',
-    heroTitle: '是一位把夢想與陰影一起做成光的數位怪傑',
-    intro: 'I am your daddy',
+    eyebrow: '“孤步雨中，永世獨行”',
+    heroTitle: '在神聖勃然起敬國擔任臨時行政',
+    intro: '雙手萬能/硬爆，唯一真理',
     interest: '興趣：研讀五代史',
-    motto: '一句簡短介紹：I am your daddy',
+    motto: '一句簡短介紹：雙手萬能/硬爆，唯一真理',
     ctaPrimary: '聯絡我',
     ctaSecondary: '看更多',
     portraitLabel: '虛擬名片',
@@ -12,7 +12,7 @@ const translations = {
     statusValue: '夜航中，正在追捕靈感',
     locationLabel: '位置',
     locationValue: '東京、上海與銀河的交界',
-    aboutTitle: '關於 YD',
+    aboutTitle: '關於 雨獨',
     aboutText: 'YD 是一個光線過度敏感的虛構人物，擅長把混沌轉成設計語言，睡前會翻閱五代史，醒來則把歷史裡的陰影變成視覺系彩蛋。',
     fact1: '喜歡在凌晨四點觀察城市天際線，認為霓虹是最誠實的歷史書。',
     fact2: '會把每一次失眠都當成一場小型宇宙實驗，並把結果藏進作品裡。',
