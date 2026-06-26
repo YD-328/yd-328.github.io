@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#06080f" />
+    <title>YD | Personal Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+    <div class="orb orb-three"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#">YD / NEON</a>
+      <div class="controls">
+        <div class="lang-switch" role="group" aria-label="language switch">
+          <button class="lang-toggle active" data-lang="zh">中文</button>
+          <button class="lang-toggle" data-lang="en">EN</button>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="toggle color theme">☀︎</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-i18n="eyebrow">全球進入下一段數位神話</p>
+          <h1>
+            <span class="name">YD</span>
+            <span data-i18n="heroTitle">是一位把夢想與陰影一起做成光的數位怪傑</span>
+          </h1>
+          <p class="lead" data-i18n="intro">I am your daddy</p>
+          <div class="pill-row">
+            <span class="pill" data-i18n="interest">興趣：研讀五代史</span>
+            <span class="pill" data-i18n="motto">一句簡短介紹：I am your daddy</span>
+          </div>
+          <div class="cta-row">
+            <a class="btn primary" href="#contact" data-i18n="ctaPrimary">聯絡我</a>
+            <a class="btn ghost" href="#story" data-i18n="ctaSecondary">看更多</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="card portrait-card">
+            <p class="card-label" data-i18n="portraitLabel">虛擬名片</p>
+            <div class="avatar">YD</div>
+            <div class="metrics">
+              <div>
+                <strong>IG</strong>
+                <span>nick970805</span>
+              </div>
+              <div>
+                <strong data-i18n="statusLabel">狀態</strong>
+                <span data-i18n="statusValue">夜航中，正在追捕靈感</span>
+              </div>
+              <div>
+                <strong data-i18n="locationLabel">位置</strong>
+                <span data-i18n="locationValue">東京、上海與銀河的交界</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section info-grid" id="story">
+        <article class="panel panel-large reveal">
+          <h2 data-i18n="aboutTitle">關於 YD</h2>
+          <p data-i18n="aboutText">
+            YD 是一個光線過度敏感的虛構人物，擅長把混沌轉成設計語言，睡前會翻閱五代史，醒來則把歷史裡的陰影變成視覺系彩蛋。
+          </p>
+          <ul class="facts">
+            <li data-i18n="fact1">喜歡在凌晨四點觀察城市天際線，認為霓虹是最誠實的歷史書。</li>
+            <li data-i18n="fact2">會把每一次失眠都當成一場小型宇宙實驗，並把結果藏進作品裡。</li>
+            <li data-i18n="fact3">相信所有真正的傳奇都要先經過一點點不合時宜的炫耀。</li>
+          </ul>
+        </article>
+
+        <article class="panel reveal">
+          <h3 data-i18n="skillsTitle">技能與癖好</h3>
+          <div class="chip-list">
+            <span>GSAP</span>
+            <span>夜間思考</span>
+            <span>五代史</span>
+            <span>神秘排版</span>
+            <span>即興演講</span>
+            <span>無畏的炫彩</span>
+          </div>
+        </article>
+
+        <article class="panel reveal">
+          <h3 data-i18n="momentTitle">神秘時刻</h3>
+          <p data-i18n="momentText">
+            當月亮出現一點點偏移，YD 會站在窗邊說：「每一個故事都該有自己的雷射邊界。」
+          </p>
+        </article>
+      </section>
+
+      <section class="section showcase reveal">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="showcaseEyebrow">一場關於未來與回憶的演出</p>
+          <h2 data-i18n="showcaseTitle">這裡是一個由像素、光與假資料組成的星球</h2>
+        </div>
+        <div class="showcase-grid">
+          <article class="showcase-card">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80" alt="abstract futuristic city" />
+            <div class="showcase-copy">
+              <h3 data-i18n="cardOneTitle">霓虹都市</h3>
+              <p data-i18n="cardOneText">這裡像是未來的遺囑，總在黑夜裡發出最耀眼的聲音。</p>
+            </div>
+          </article>
+          <article class="showcase-card">
+            <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=900&q=80" alt="futuristic neon skyline" />
+            <div class="showcase-copy">
+              <h3 data-i18n="cardTwoTitle">數位神殿</h3>
+              <p data-i18n="cardTwoText">每一條光線都像一場精心設計的秘密，好像在等待某個名字。</p>
+            </div>
+          </article>
+          <article class="showcase-card">
+            <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80" alt="glowing laptop and neon lights" />
+            <div class="showcase-copy">
+              <h3 data-i18n="cardThreeTitle">深夜工作台</h3>
+              <p data-i18n="cardThreeText">YD 經常在這裡把靈感按成一個個可被收藏的彈跳字樣。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="panel contact-panel reveal">
+          <h2 data-i18n="contactTitle">聯絡我</h2>
+          <div class="contact-list">
+            <a href="https://www.instagram.com/nick970805/" target="_blank" rel="noreferrer">IG: nick970805</a>
+            <a href="mailto:yd@neon.fake">Email: yd@neon.fake</a>
+            <span data-i18n="contactLocation">座標：夜色與電流的交界</span>
+            <span data-i18n="contactNote">備註：若你也相信故事會自己發光，請隨時聯絡。</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
